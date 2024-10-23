@@ -184,7 +184,8 @@ nav ul li a:hover {
 
 
 .content {
-    width: 80%;
+    margin-left: 270px; /* Add margin to push content to the right */
+    width: calc(100% - 270px); /* Adjust width to fit with sidebar */
     padding: 20px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
