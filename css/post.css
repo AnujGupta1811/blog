@@ -1,0 +1,57 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .form-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        form {
+            margin: 20px 0;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        /* Custom TinyMCE styling */
+        .tox-tinymce {
+            border: 1px solid #ccc; /* Border for the editor */
+            border-radius: 4px;     /* Rounded corners */
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            font-family: Arial, sans-serif; /* Font style */
+        }
+        .tox-toolbar {
+            background-color: #f8f9fa; /* Toolbar background color */
+            border-bottom: 1px solid #ddd; /* Border under the toolbar */
+        }
+        .submit{
+            background-color:#218838
+        }

@@ -1,0 +1,92 @@
+        body {
+            background-color: #121212; /* Dark background */
+            color: #ffffff; /* Light text color */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            flex-direction: column; /* Stack content vertically */
+        }
+
+        .form-container {
+            background-color: #1e1e1e; /* Slightly lighter background for form */
+            padding: 30px; /* Increased padding for more space */
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Slightly stronger shadow */
+            width: 400px; /* Increased width for larger form */
+            margin-bottom: 20px; /* Space between form and contact info */
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px; /* Increased padding for inputs */
+            margin-bottom: 15px; /* Increased margin for spacing */
+            border: 1px solid #444; /* Dark border */
+            border-radius: 5px;
+            background-color: #333; /* Dark input background */
+            color: #ffffff; /* Light input text */
+            font-size: 16px; /* Increased font size for inputs */
+        }
+
+        button {
+            width: 100%;
+            padding: 12px; /* Increased padding for button */
+            background-color: #007bff; /* Blue button */
+            border: none;
+            border-radius: 5px;
+            color: #ffffff; /* Light button text */
+            cursor: pointer;
+            font-size: 18px; /* Increased font size for button */
+            display: flex; /* Flexbox for aligning icon */
+            align-items: center; /* Center the icon vertically */
+            justify-content: center; /* Center the icon horizontally */
+        }
+
+        button i {
+            margin-right: 8px; /* Space between icon and text */
+        }
+
+        button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+        .contact-info {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            width: 400px; /* Match form width */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Same shadow as form */
+        }
+
+        .contact-info h2 {
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .contact-info i {
+            color: #007bff;
+            margin-right: 8px;
+        }
+
+        @media (max-width: 600px) {
+            .form-container, .contact-info {
+                width: 90%; /* Responsive design */
+            }
+        }
